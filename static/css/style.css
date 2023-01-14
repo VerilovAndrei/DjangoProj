@@ -14,7 +14,7 @@ footer{
     background-color: darkgrey;
     padding: 5px;
     background-position: bottom;
-    flex:0 0 auto;
+    flex:0 0 auto
 }
 html,body{
     margin:0;
