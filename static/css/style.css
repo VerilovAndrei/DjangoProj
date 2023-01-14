@@ -7,19 +7,23 @@ header{
 
     font-size: 35px;
     color:#fff;
-    background-color: #4682B4;
+    background-color: rgb(70,130,180);
     padding: 5px;
 }
 footer{
     background-color: darkgrey;
     padding: 5px;
     background-position: bottom;
-    flex:0 0 auto;
+    flex:0 0 auto
 }
 html,body{
     margin:0;
     height: 100%;
     width:100%;
+}
+
+html{
+    background-image: url('../pictures/fon.jpg');
 }
 
 h1{
@@ -43,6 +47,7 @@ h1{
 }
 
 .wrapper{
+    background:white;
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -75,4 +80,10 @@ h1{
 }
 .menu_button:active{
     background-color: #4682B4;
+}
+
+.description{
+    position: center;
+    #border:1px solid black;
+    padding:4px;
 }
