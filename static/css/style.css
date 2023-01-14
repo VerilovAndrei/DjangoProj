@@ -1,0 +1,78 @@
+*{
+   font-family: "Lucida Console";
+}
+header{
+    text-align: center;
+    font-family: Impact;
+
+    font-size: 35px;
+    color:#fff;
+    background-color: #4682B4;
+    padding: 5px;
+}
+footer{
+    background-color: darkgrey;
+    padding: 5px;
+    background-position: bottom;
+    flex:0 0 auto;
+}
+html,body{
+    margin:0;
+    height: 100%;
+    width:100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.main_block{
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    line-height:35px;
+}
+
+.content{
+    padding:5px;
+    margin:5px;
+    flex: 1 0 auto;
+    min-width:55%;
+    max-width: 60%;
+    #border:1px dotted grey;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.menu{
+    flex: 0 1 auto;
+    max-height:100%;
+    width:20%;
+    min-height:100%;
+
+    background:linear-gradient(#4682B4,darkgrey);
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_button{
+    margin: 3px;
+    height: 63px;
+    background-color: rgba(0,0,0,0);
+    border:none;
+    border-radius: 20px;
+    color :white;
+    font-size: 18px;
+}
+
+
+.menu_button:hover{
+    box-shadow: 5px 5px 5px 5px #1C4470;
+}
+.menu_button:active{
+    background-color: #4682B4;
+}

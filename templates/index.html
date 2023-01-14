@@ -1,0 +1,33 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Главная страница</title>
+
+</head>
+<body>
+    <div class = wrapper>
+        <header>CyberGuard</header>
+        <div class = main_block>
+            <div class = menu>
+                <button class = menu_button>Главная</button>
+                <button class = menu_button>Востребованность</button>
+                <button class = menu_button>География</button>
+                <button class = menu_button>Навыки</button>
+                <button class = menu_button>Последние вакансии</button>
+            </div>
+            <div class = content>
+                <h1>{{profession.title}}</h1>
+                <p>{{ profession.description }}</p>
+            </div>
+        </div>
+        <footer>Верилов Андрей Алексеевич<br>РИ-210913</footer>
+    </div>
+</body>
+</html>
