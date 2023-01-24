@@ -9,7 +9,7 @@ class Profession (models.Model):
         return self.title
 
     class Meta:
-        verbose_name = "Профессия"
+        verbose_name = "Професcия"
         verbose_name_plural = 'Профессии'
 
 
