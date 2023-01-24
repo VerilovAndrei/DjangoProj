@@ -9,6 +9,6 @@ def index_page(request):
 
 def skills_page(request):
     data = {
-        'search_url': 'ddd'
+        'images': 'ddd'
     }
     return render(request, "skills.html", context=data)
