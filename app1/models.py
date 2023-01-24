@@ -12,4 +12,5 @@ class Profession (models.Model):
         verbose_name = "Профессия"
         verbose_name_plural = 'Профессии'
 
-class StatisticPicture (models.):
+
+
