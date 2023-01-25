@@ -11,3 +11,4 @@ class Profession (models.Model):
         verbose_name = "Професcия"
         verbose_name_plural = 'Профессии'
 
+

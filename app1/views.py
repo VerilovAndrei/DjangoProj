@@ -12,3 +12,21 @@ def skills_page(request):
         'images': 'ddd'
     }
     return render(request, "skills.html", context=data)
+
+def vacs(request):
+    data = {
+
+    }
+    return render(request, "vacs.html", context=data)
+
+def geo(request):
+    data = {
+
+    }
+    return render(request, "geo.html", context=data)
+
+def topicaluty(request):
+    data = {
+
+    }
+    return render(request, "topicality.html", context=data)
