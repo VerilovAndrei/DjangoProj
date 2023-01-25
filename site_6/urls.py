@@ -19,5 +19,5 @@ from app1.views import index_page, skills_page
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index_page),
-    path('',skills_page)
+    path('pages/', skills_page)
 ]
