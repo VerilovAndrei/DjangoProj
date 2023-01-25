@@ -22,5 +22,6 @@ urlpatterns = [
     path('skills/', skills_page),
     path('geo/', skills_page),
     path('vacs/', skills_page),
-    path('skills/', skills_page)
+    path('skills/', skills_page),
+    path('topicality/', skills_page)
 ]
