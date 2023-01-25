@@ -97,3 +97,8 @@ h1{
     border-radius: 20px;
     margin:2px;
 }
+
+
+ul{
+    background-color: rgba(20,100,72,0.5);
+}
